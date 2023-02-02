@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Caradonna</title>
+</head>
+<body style="max-width: 2200px; margin: 0 auto;">
+
+  <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg p-1 background-red">
+<div class="container-fluid">
+  <a class="navbar-brand" href="#"><img src="assets/logo.jpg" width="250" alt=""></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ 
+  <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ms-auto ">
+      <li class="nav-item hover-nav">
+        <a class="nav-link mx-2 text-white" aria-current="page" href="#presentation">Presentation</a>
+      </li>
+      <li class="nav-item hover-nav">
+        <a class="nav-link mx-2 text-white" href="#competences">Competences</a>
+      </li>
+
+      <li class="nav-item hover-nav dropdown">
+        <a class="nav-link mx-2 text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li class="hover-drop-nav"><a class="dropdown-item " href="#">Safes</a></li>
+          <li class="hover-drop-nav"><a class="dropdown-item" href="#">ATM</a></li>
+          <li class="hover-drop-nav"><a class="dropdown-item" href="#">Retail</a></li>
+          <li class="hover-drop-nav"><a class="dropdown-item" href="#">Strong cabinets</a></li>
+          <li class="hover-drop-nav"><a class="dropdown-item" href="#">Fireproof safes</a></li>
+          <li class="hover-drop-nav"><a class="dropdown-item" href="#">Home safes</a></li>
+          <li class="hover-drop-nav"><a class="dropdown-item" href="#">Security Doors</a></li>
+          <li class="hover-drop-nav"><a class="dropdown-item" href="#">Guns-safes</a></li>
+          <li class="hover-drop-nav"><a class="dropdown-item" href="#">Special solutions</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item hover-nav">
+        <a class="nav-link mx-2 text-white" href="#">Services</a>
+      </li>
+
+      <li class="nav-item hover-nav">
+        <a class="nav-link mx-2 text-white" href="#">References</a>
+      </li>
+
+      <li class="nav-item hover-nav">
+        <a class="nav-link mx-2 text-white" href="#">Contacts</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+  <!--Navbar-end-->
+
+ <!--Carousel-->
+  <div id="carouselExampleCaptions" class="carousel carousel-dark slide not-visible" data-bs-ride="carousel">
+    <div class="carousel-indicators mb-0">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    </div>
+    <div class="carousel-inner">
+
+      <div class="carousel-item active" data-bs-interval="8000">
+        <img src="assets/carousel/1.jpg" class="d-block" alt="...">
+        <div class="carousel-caption text-carousel d-none d-md-block">
+          <h4>Thin and Light</h4>
+          <p>The finest walls safe's of the market ... Strenght & Maxi Volume!</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="8000">
+        <img src="assets/carousel/2.jpg" class="d-block" alt="...">
+        <div class="carousel-caption text-carousel d-none d-md-block">
+          <h4>ARIÈS: Anti-Ram Door...</h4>
+          <p>It swallows 25.000 joules, and never give in !!!</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="8000">
+        <img src="assets/carousel/3.jpg" class="d-block" alt="...">
+        <div class="carousel-caption text-carousel d-none d-md-block">
+          <h4>Mobile Armored Curtain</h4>
+          <p>The double derogatory protection ; double-skin or double shell by your leave ...</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="8000">
+        <img src="assets/carousel/4.jpg" class="d-block" alt="...">
+        <div class="carousel-caption text-carousel d-none d-md-block">
+          <h4>Commtiment</h4>
+          <p>Whoever promises, creates and takes on !!!</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="8000">
+        <img src="assets/carousel/5.jpg" class="d-block" alt="...">
+        <div class="carousel-caption text-carousel d-none d-md-block">
+          <h4>Alpha & Omega</h4>
+          <p>Generating ideas and prototypes; immediate deploymenht !</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="8000">
+        <img src="assets/carousel/6.jpg" class="d-block" alt="...">
+        <div class="carousel-caption text-carousel d-none d-md-block">
+          <h4>People Under Disability :</h4>
+          <p>Fair customers care processing solutions !</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="8000">
+        <img src="assets/carousel/7.jpg" class="d-block" alt="...">
+        <div class="carousel-caption text-carousel d-none d-md-block">
+          <h4>Solid or Gaseous Explosives ...</h4>
+          <p>"Winds are me less than you, feared. I bend and don't break."</p>
+        </div>
+      </div>
+
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ <!--Carousel-end-->
+
+<!--Presentation-->
+ <section id="presentation" class="presentation">
+  <br>
+  <br>
+  <h2 class="title-caradonna">CARADONNA</h2>
+<br>
+  <div class="text-caradonna">
+
+
+
+  <div class="half-text">
+  <p class="lh-1">
+
+    Founded in 1965 by mister Jean CARADONNA, the Société Française des Coffres-Forts CARADONNA® (SFC CARADONNA) illustrates the journey of a family business that has adapted itself to market changes, always developing with care and application, innovative solutions in terms of physical security.
+  </p>
+
+  <p class="lh-1">
+    CARADONNA® is today a Banking and Retail leader in physical security solutions in the French market and internationally, in the field of safes and protections for ATMs.  </p>
+
+  <p class="lh-1">
+    This primacy is confirmed for years by the originality and efficiency of especially adapted safes in resistance against pasty and gaseous explosives.  </p>
+
+  <p class="lh-1">
+    Two ISO9001:2008 certified plants, with modern production facilities organized around continuous improvement, always serve customers with high quality certified products, accompanied on implementation site by the associated services.  </p>
+
+  <p class="lh-1">
+    Production capacity, proven processes, a large stock of standard products, allow to positively respond to all requirements of installation time, implementation of complex projects or synchronized deployment.  </p>
+
+</div>
+
+<div class="half-text">
+
+  <p class="lh-1">
+    
+    The hyper-reactivity of R&D department and the creation of specific projects completed by custom prototypes, are from the beginning, the D.N.A. and the strength of this great family business !
+  </p>
+
+  <p class="lh-1">
+    CARADONNA® provides its experience and expertise in offering a complete range of service: needs analysis, definition of possible solutions, research & development, manufacturing, marketing, implementation, equipment, training, monitoring and after-sales service.  </p>
+
+  <p class="lh-1">
+    CARADONNA® is all time connected with its local partners, combining the same know-how and sharing the same values, proximity, customer listening and able to valorize the decades of know-how and experience in an exchange relationship.  </p>
+
+  <p class="lh-1">
+    Your projects, your ideas, your new business models are never unachievable !  </p>
+
+  <p class="lh-1">
+    The teams of professionals who are now the CARADONNA®'s force are daily driven by passion for their craft and the desire to satisfy their clients by the effectiveness of their contribution.  </p>
+
+</div>
+
+</div>
+
+<div class="statistic">
+
+<h2 class="title_statistic">KEY FIGURES</h2>
+
+<div class="grid-statistic">
+  <div class="inner_statistic">
+    <img src="assets/statistics/1.png" alt="" width="50px" height="50px" style="margin: 0 50px;">
+    <h4>~40</h4>
+    <p>Turnover in M€</p>
+  </div>
+
+  <div class="inner_statistic">
+    <img src="assets/statistics/2.png" alt="" width="50px" height="50px" style="margin: 0 50px;">
+    <h4>14 000</h4>
+    <p>Safes per year</p>
+  </div>
+
+  <div class="inner_statistic">
+    <img src="assets/statistics/3.png" alt="" width="50px" height="50px" style="margin: 0 50px;">
+    <h4>1750</h4>
+    <p>Costumers</p>
+  </div>
+
+  <div class="inner_statistic">
+    <img src="assets/statistics/4.png" alt="" width="50px" height="50px" style="margin: 0 50px;">
+    <h4>1965</h4>
+    <p>Creation date</p>
+  </div>
+
+  <div class="inner_statistic">
+    <img src="assets/statistics/5.png" alt="" width="50px" height="50px" style="margin: 0 50px;">
+    <h4>+200</h4>
+    <p>People</p>
+  </div>
+
+  <div class="inner_statistic">
+    <img src="assets/statistics/6.png" alt="" width="50px" height="50px" style="margin: 0 50px;">
+    <h4>72 exporting countries</h4>
+    <p>Europe & Asia</p>
+  </div>
+
+</div>
+
+</div>
+
+<br>
+
+<!--CERTEFICADOS-->
+<section class="page-section" id="certificados" style="margin-top: 1em;">
+  <div class="container">
+      <div class="text-center">
+          <h3 class="section-heading text-uppercase title-caradonna">Certificates</h3>
+          <br>
+          <br>
+      </div>
+          <div class="d-grid">
+          <div class="row row-cols-3 row-cols-md-6">
+              <div class="col">  <img src="./assets/img/certifications/Feature-produit-a2p.png" alt="" width="100%"></div>
+              <div class="col">  <img src="./assets/img/certifications/logo-ecbs.jpg" alt="" width="100%"></div>
+              <div class="col">  <img src="./assets/img/certifications/logo-cnpp.jpg" alt="" width="100%"></div>
+              <div class="col">  <img src="./assets/img/certifications/logo-nf.jpg" alt="" width="100%"></div>
+              <div class="col">  <img src="./assets/img/certifications/logo-syfraco.jpg" alt="" width="100%"></div>
+              <div class="col">  <img src="./assets/img/certifications/logo-vds.jpg" alt="" width="100%"></div>
+          </div>
+
+      </div>
+  </div>  
+</section>
+
+ </section>
+<!--Presentation-end-->
+
+<!--Competences-->
+ <section id="competences" class="competences">
+  <h2 class="title-caradonna">Competences</h2>
+<br>
+
+  <div class="text-caradonna">
+
+
+
+    <div class="half-text">
+    <p class="lh-1">
+    Extensive experience has broadened the field of products known as "derogatory to the security law" such as ARMOURED DOOR ANTI-CAR ATTACK (ARIES) ; the ARMORED MOBILE CURTAIN (R.M.B) ; and solutions for the use of persons under disability (P.S.H.).
+    </p>
+  
+    <p class="lh-1">
+      The 12 000 m2 covered of the biggest industrial site of the company are ideally implemented near the second commercial port of Portugal, near Porto : the port of Leixoes. The location of this CARADONNA® plant operates validly international shipping by containers. The company exports 100% of its production, live to Europe and Asia ; and by its partners located in more than 72 countries all over the world.
+    </p>  
+
+  </div>
+  
+  <div class="half-text">
+  
+    <p class="lh-1">      
+      Activity remains the original one of CARADONNA® group; i.e. all production of sets related to physical security primarily for the banking sectors : safes, safes for ATMs, armored panels for secured technical enclosures for bank branches, anti-ram doors, armored doors , heavy doors ...
+    </p>
+  
+    <p class="lh-1">
+      CARADONNA® combines environmental insurance of its quality requirements. And because the CARADONNA® manufacturing is ISO 9001, awaiting the certification ISO 14 000. In additional attesting of their security effectiveness, the company is also awarded by the French A2P certification : label issued by the CNPP, and other relevant adapted European labels.
+    </p>  
+
+  </div>
+  
+  </div>
+
+<div class="carousel_comp">
+  <div id="carouselExampleCaptions1" class="carousel w-75 m-auto carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators mb-0">
+      <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+
+      <div class="carousel-item active" data-bs-interval="8000">
+        <img src="assets/img/fab/1.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="8000">
+        <img src="assets/img/fab/2.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="8000">
+        <img src="assets/img/fab/3.jpg" class="d-block w-100" alt="...">
+
+      </div>
+
+      <div class="carousel-item" data-bs-interval="8000">
+        <img src="assets/img/fab/4.jpg" class="d-block w-100" alt="...">
+      </div>
+
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+ </section>
+<!--Competences-end-->
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>  
+    <script src="script/script.js"></script>
+</body>
+</html>

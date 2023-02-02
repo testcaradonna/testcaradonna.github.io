@@ -1,0 +1,301 @@
+@media all and (min-width: 1600px){
+.fond, .texte2col, .chiffres, .images, .familles, .texte1col, .diapo-logos, .widgetContacts, .carte, #footerInner, div.line1, div.line2, div.line3, div.line4, div.line5, div.line6, #product, .productsList, .code_html, .recherche #searchform, .recherche #search, .rg-gallery, .pres {
+  margin:0 380px;
+  }
+#famillyPresentation {
+  margin:20px 380px 0;
+  } 
+.texte2col {
+  margin-top:10px;
+  margin-bottom:10px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+}
+#contents .diapo {
+  margin-top:38px;
+}
+#nested .firstLevel li a{
+		padding:0 15px;
+  font-size:12px;
+  }
+#header #logo a {
+	height: 87px;
+	width: 249px;
+	background: url(../images/logo-sfcc-caradonna.jpg) no-repeat top center;
+}
+#footerInner {
+ margin-bottom:-50px;
+}
+.famillyContainer {
+	padding:15px 50px 15px 10px;
+  }
+.contentText {
+ top:30%;
+ left: 45%;
+  }
+#productPicture{ 
+ margin:10px 10px 10px 0;   
+  }
+div.col1,
+div.col2,
+div.col3,
+div.col4{
+  width:calc(25% - 20px);
+}
+	#nested .firstLevel li{
+		float:left;
+  }
+#nested .firstLevel li a:hover{
+  background:#8d0e2a;
+  }
+#en, #fr {
+  margin-left:8px;
+ }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1599px){
+.fond, .texte2col, .chiffres, .images, .familles, .texte1col, .diapo-logos, .widgetContacts, .carte, #footerInner, div.line1, div.line2, div.line3, div.line4, div.line5, div.line6, #product, .productsList, .code_html, .recherche #searchform, .recherche #search, .rg-gallery, .pres {
+  margin:0 180px;
+  }
+#famillyPresentation {
+  margin:20px 180px 0;
+  } 
+.texte2col {
+  margin-top:10px;
+  margin-bottom:10px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+}
+#contents .diapo {
+  margin-top:38px;
+}
+#nested .firstLevel li a{
+		padding:0 15px;
+  font-size:12px;
+  }
+#header #logo a {
+	height: 87px;
+	width: 249px;
+	background: url(../images/logo-sfcc-caradonna.jpg) no-repeat top center;
+}
+#footerInner {
+ margin-bottom:-50px;
+}
+.famillyContainer {
+	padding:15px 50px 15px 10px;
+  }
+.contentText {
+ top:30%;
+ left: 40%;
+  }
+#productPicture{ 
+ margin:10px 10px 10px 0;   
+  }
+div.col1,
+div.col2,
+div.col3,
+div.col4{
+  width:calc(25% - 20px);
+}
+	#nested .firstLevel li{
+		float:left;
+  }
+ #nested .firstLevel li a:hover{
+  background:#8d0e2a;
+}
+#en, #fr {
+  margin-left:8px;
+ }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px){
+.fond, .texte2col, .chiffres, .images, .familles, .texte1col, .diapo-logos, .widgetContacts, .carte, #footerInner, div.line1, div.line2, div.line3, div.line4, div.line5, div.line6, #product, .productsList, .code_html, .recherche #searchform, .recherche #search, .rg-gallery, .pres {
+  margin:0 100px;
+  }
+#famillyPresentation {
+  margin:10px 100px 0;
+  } 
+.texte2col {
+  margin-top:10px;
+  margin-bottom:10px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+}
+#contents .diapo {
+  margin-top:38px;
+}
+#nested .firstLevel li a{
+		padding:0 12px;
+  font-size:12px;
+  }
+#header #logo a {
+	height: 87px;
+	width: 249px;
+	background: url(../images/logo-sfcc-caradonna.jpg) no-repeat top center;
+}
+#footerInner {
+ margin-bottom:-50px;
+}
+.famillyContainer {
+	padding:15px 50px 15px 10px;
+  }
+.contentText {
+ top:30%;
+ left: 35%;
+  }
+#productPicture{ 
+ margin:10px 10px 10px 0;   
+  }
+div.col1,
+div.col2,
+div.col3,
+div.col4{
+  width:calc(25% - 20px);
+}
+	#nested .firstLevel li{
+		float:left;
+  }
+ #nested .firstLevel li a:hover{
+  background:#8d0e2a;
+}
+#en, #fr {
+  margin-left:5px;
+ }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px){
+.fond, .texte2col, .chiffres, .images, .familles, .texte1col, .diapo-logos, .widgetContacts, .carte, #footerInner, div.line1, div.line2, div.line3, div.line4, div.line5, div.line6, #product, .productsList, .code_html, .recherche #searchform, .recherche #search, .rg-gallery, .pres {
+  margin:0 50px;
+  }
+#famillyPresentation {
+  margin:10px 50px 0;
+  } 
+.texte2col {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+#contents .diapo {
+  margin-top:38px;
+}
+#nested .firstLevel li a{
+		padding:0 11px;
+  font-size:11px;
+  }
+#header #logo a {
+	height: 51px;
+	width: 147px;
+	background: url(../images/logo-sfcc-caradonna.jpg) no-repeat top center;
+ background-size:cover;
+}
+.icones img:nth-of-type(1) {
+   display:none;
+  }
+#footerInner {
+ margin-bottom:-50px;
+}
+.famillyContainer {
+	padding:15px 30px 15px 30px;
+  }
+.contentText {
+ top:20%;
+ left: 30%;
+  }
+#productPicture{ 
+ margin:10px 10px 10px 0;   
+  }
+div.col1,
+div.col2,
+div.col3,
+div.col4{
+  width:calc(50% - 20px);
+}
+	#nested .firstLevel li{
+		float:left;
+  }
+#nested .firstLevel li a:hover{
+  background:#8d0e2a;
+}
+}
+
+@media all and (max-width: 767px){
+.fond, .texte2col, .chiffres, .images, .familles, .texte1col, .diapo-logos, .widgetContacts, .carte, #footerInner, div.line1, div.line2, div.line3, div.line4, div.line5, div.line6, #product, .productsList, .code_html, .recherche #searchform, .recherche #search, .rg-gallery, .pres {
+  margin:0 20px;
+  } 
+#famillyPresentation {
+  margin:10px 20px 0;
+  } 
+.texte2col {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+#contents .diapo {
+  margin-top:50px;
+}
+#nested .firstLevel li a{
+		padding:0 15px;
+  font-size:12px;
+  }
+#header #logo a {
+	height: 51px;
+	width: 147px;
+	background: url(../images/logo-sfcc-caradonna.jpg) no-repeat top center;
+ background-size:cover;
+}
+.icones img:nth-of-type(1) {
+   display:none;
+  }
+.icones img:nth-of-type(2) {
+   margin-top:10px;
+   width:20px;
+  }
+#footerInner {
+ margin-bottom:-60px;
+}
+#signature {
+  padding:40px 0;
+  }
+.signature {
+  padding-top:20px;
+  font-size:12px;
+  }
+.famillyContainer {
+	padding:15px 20px 15px 20px;
+  }
+.familly h3{
+ padding-top:10px;
+ text-align:center; 
+  }
+.contentText {
+ display:none;
+  }
+#productPicture{ 
+ margin:10px 0;   
+  }
+div.col1,
+div.col2,
+div.col3,
+div.col4{
+  width:calc(100% - 20px);
+}
+.diapo-accueil {
+  display:none;
+  }
+	#nested .firstLevel li{
+		float:none;
+  }
+ #nested .firstLevel li a:hover{
+  background:#ed1947;
+}
+}

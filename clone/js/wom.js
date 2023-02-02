@@ -1,0 +1,1 @@
+var woms=new Array;function womGo(){for(var i=0;i<woms.length;i++)eval(woms[i])}function womAdd(o){woms.push(o)}window.onload=womGo;

@@ -1,0 +1,360 @@
+/* ------
+TITRES
+---------*/
+h1, h2, h3, h4, h5, h6 {
+	line-height: normal;
+	margin: 10px 0;
+	color: #000;
+}
+h1 {
+	font-size: 2em;
+	font-weight: normal;
+	margin: 0 0 10px;
+}
+h2 {
+	font-size: 1.7em;
+	font-weight: normal;
+}
+h3 { font-size: 1.6em; }
+h4 { font-size:1.4em; }
+h5 { font-size: 1.3em; }
+h6 {
+	color: #007AAA;
+	font-size: 1.2em;
+}
+#contentsInner h1 {
+	padding: 0 10px 5px;
+	background: url(../images/bg-title.png) repeat-x bottom center;
+}
+
+/* ------------
+LIENS
+--------------*/
+a:link {
+	color: #333333;
+	text-decoration: none;
+}
+a:visited {
+	color: #8d0e2a;
+	text-decoration: underline;
+}
+a:hover, a:active {
+	color: #8d0e2a;
+}
+/* IE n'interprète pas les pseudo-éléments :after, ceci ne sera donc pas affiché pour IE */
+/* #contents a.LinkOut:after{
+	color:#bbb;
+	content: " ["attr(hreflang)"]";
+	font-weight:normal;
+}*/
+
+/* ------------
+CONTENU WYSIWYG
+--------------*/
+p { margin: 5px 0; }
+strong { font-weight: bold; }
+em { font-style: italic; }
+em strong, strong em {
+	font-style: italic;
+	font-weight: bold;
+}
+u { text-decoration: underline; }
+strike { text-decoration: line-through; }
+address { color: #007AAA; }
+pre {
+	background: #ccc;
+	border: 1px solid #007AAA;
+	font-family: Courier, MS Courier New, Prestige, Everson Mono;
+	font-size: 1.1em;
+	margin: 20px auto;
+	overflow: auto;
+	padding: 5%;
+	width: 80%;
+}
+code {
+	background: #007AAA;
+	color: #fff;
+	font-family: Courier, MS Courier New, Prestige, Everson Mono;
+	font-size: 1.1em;
+	padding: 2px;
+}
+blockquote {
+	background: url(../images/quotes1.png) no-repeat 0 2px;
+	margin: 10px 50px;
+	text-indent: 25px;
+}
+blockquote p {
+	background: url(../images/quotes2.png) no-repeat bottom right;
+	display: inline;
+	margin: 0;
+	padding-right: 24px;
+}
+cite {
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 1.1em;
+	padding: 0 3px;
+}
+acronym {
+	border-bottom: 1px dashed #007AAA;
+	cursor: help;
+}
+q {
+	color: #007AAA;
+	font-style: italic;
+}
+q:after {
+	content: " ' Source: "attr(cite)" ";
+	font-size:1em;
+}
+ul {
+	color: #666;
+	list-style: none;
+	margin: 5px 0 5px 25px;
+}
+ul li{
+	background: url(../images/puce.png) no-repeat 0 2px;
+	padding: 0 0 0 15px;
+}
+ol {
+	color: #666;
+	list-style: inside decimal-leading-zero;
+	margin: 5px 0 5px 25px;
+}
+hr { border: none; }
+.separator {
+	clear: both;
+	visibility: hidden;
+}
+dl { margin: 10px 5px; }
+dt {
+	color:#000;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+dd {
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	text-indent: 10px;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #ccc;
+	margin: auto;
+	width: 100%;
+	margin-bottom: 15px;
+}
+table caption {
+	color: #ccc;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 5px 0;
+	text-align: left;
+}
+th {
+	color:#fff;
+	border: 1px solid #ccc;
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 2px;
+}
+td {
+	border: 1px solid #ccc;
+	padding: 2px;
+}
+td img { padding: 3px; }
+
+/* ------------
+BLOCS DES MEDIAS
+--------------*/
+.medias { margin: 10px 0; }
+.medias .flash{}
+.medias .audio, .medias .video, .medias .center { text-align: center; }
+.medias .right { text-align: right; }
+.medias .left { text-align: left; }
+.medias img { margin: 5px; 	}
+.medias .right .diaporama {
+	text-align: right;
+	margin: 0 0 0 auto;
+}
+.medias .left .diaporama {
+	text-align: left;
+	margin: 0 auto 0 0;
+}
+.medias .center .diaporama {
+  text-align: left;
+  margin: 0 auto;
+}
+.medias a,.medias a:hover, .medias a:visited {
+	background: none;
+	text-decoration: none;
+}
+.medias .description {
+	display: none;
+}
+.back {
+	text-align: center;
+	margin-bottom: 10px;
+	display: block;
+	clear: both;
+}
+
+/* ------------------------------------------
+ELEMENTS DE MISE EN PAGE DANS ZONE DE CONTENU
+--------------------------------------------*/
+.une_colonne, .deux_colonnes {
+	clear: both;
+	display: inline;
+}
+.colleft {
+	float: left;
+	margin: 0 2% 0 0;
+	padding: 0;
+	width: 47%;
+}
+.colright {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 48%;
+}
+.intext_left {
+	float: left !important;
+	padding: 5px !important;
+}
+.intext_right {
+	float: right !important;
+	padding: 5px !important;
+}
+.above_left, .below_left, .left { text-align: left; }
+.above_right, .below_right, .right { text-align: right; }
+.above_center, .below_center { text-align: center; }
+.above_center img, .above_right img,
+.above_left img, .below_center img,
+.below_right img, .below_left img { float: none !important; }
+.center { text-align: center; width: 100%; }
+.colonne {
+	width: 30%;
+	float: left;
+	margin: 15px 10px;
+	color: #666;
+	font-size: 1.2em;
+}
+.colonne strong { color:#000; }
+.colonne .title {
+	text-align: center;
+	margin-bottom: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.date { font-style: italic; }
+.colonne a { display: block; }
+
+/* ----------
+GOOGLEMAP
+-------------*/
+.googleMapBulle {
+	width: 250px;
+	height: 150px;
+	overflow: auto;
+	padding: 0;
+	margin: 0;
+}
+.labelMarker {
+	font-weight: bold;
+	color: #000;
+}
+
+/* ------------------------
+SECURISATION DU MOT DE PASSE
+--------------------------*/
+.strength_password {
+	color: #666;
+	display: block;
+	float: left;
+	font: bold 13px arial, 'helvetica', sans-serif;
+	height: 28px;
+	margin-left: 10px;
+	padding: 0 0 12px 10px;
+	clear: both;
+}
+.strength_password span {
+	display: block;
+	float: right;
+	margin: 0 0 0 20px;
+	padding: 10px 20px 12px 10px;
+	white-space: nowrap;
+}
+.shortPass       { background: transparent url(../images/red.png) no-repeat scroll 0 0; }
+.shortPass span  { background: transparent url(../images/red.png) no-repeat scroll right top; }
+.badPass         { background: transparent url(../images/red.png) no-repeat scroll 0 0; }
+.badPass span    { background: transparent url(../images/red.png) no-repeat scroll right top; }
+.goodPass        { background: transparent url(../images/yellow.png) no-repeat scroll 0 0; }
+.goodPass span   { background: transparent url(../images/yellow.png) no-repeat scroll right top; }
+.strongPass      { background: transparent url(../images/green.png) no-repeat scroll 0 0; }
+.strongPass span { background: transparent url(../images/green.png) no-repeat scroll right top; }
+#mustEnableJavascript, #mustAcceptCookies {
+	font-weight: bold;
+	color: #ff0000;
+}
+
+/*
+ * Champ de type insertion de ressource côté public, avec mini-centre de ressources
+ * */
+.addResource {
+	position: relative;
+	float: left;
+}
+.addResource .vignette {
+	width: 90px;
+	height: 90px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+.addResource .vignette p { margin: 0; }
+.addResource .actions {
+	position: absolute;
+	bottom: 1px;
+	right: 1px;
+	background: #eee;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+
+}
+.addResource .actions a {
+	display: block;
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+}
+.addResource .actions a:hover { background-color: #ccc; }
+.addResource .actions .pubRModif > span, .addResource .actions .pubRDelete > span {
+	position: absolute;
+	top: -25px;
+	left: 6px;
+	display: none;
+	padding: 2px 5px;
+	font-size: 11px;
+	color: #fff;
+	background: #000;
+	white-space: nowrap;
+}
+.addResource .actions .pubRModif:hover > span, .addResource .actions .pubRDelete:hover > span { display: block; }
+.addResource .actions .add        { background-image: url(../images/add_small.png); }
+.addResource .actions .modif      { background-image: url(../images/edit_small.png); }
+.addResource .actions .pubRDelete { background-image: url(../images/delete_small.png); }
+.addResource .actions a {
+	position: relative;
+	float: left;
+}
+.addResource .actions .add, .addResource .actions .addLabel { float: left; }
+.addResource .actions .pubRLabel {
+	margin-bottom: 5px;
+	font-style: italic;
+}
+.addResource .actions p { margin: 0; }

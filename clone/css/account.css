@@ -1,0 +1,68 @@
+/* -------------------------
+BOITE GESTION DE COMPTE
+--------------------------*/
+.widgetLogin { line-height: 100%; }
+.widgetLogin a { margin-right: 10px; }
+.widgetLogin form, .widgetLogin fieldset,
+.widgetLogin input[type="text"], .widgetLogin input[type="password"] { width: 100%; }
+.widgetLogin legend, #accountNewPassword legend {
+	padding: 0;
+	font-size: 14px;
+	line-height: 20px;
+	color: #5c8fab;
+}
+.widgetLogin label { line-height: 18px; }
+span.widgetLoginState {
+	color: #000;
+	font-weight: bold;
+	margin-right: 5px;
+}
+span.widgetLoginUsername {}
+#header .widgetLogin .row, #header .widgetLogin label,
+#header .widgetLogin form, #header .widgetLogin .submit,
+#header .widgetLogin .widgetLoginLinks { display: inline; }
+#header .widgetLogin h4 { display: none; }
+#header .widgetLogin fieldset {
+	display: inline;
+	width: auto;
+}
+#header .widgetLogin input { margin-right: 10px; }
+#header .widgetLogin .submit input {
+	background: #007aaa;
+	border: none;
+}
+
+/* -------------------------
+PERSONNALISATION DU COMPTE
+--------------------------*/
+#authentification {}
+#accountActions {}
+#accountModify {}
+#accountChangePassword {}
+#accountAccesConfiguration {}
+#accountAddress {}
+#accountOrdersList {}
+#accountPendingOrders {}
+#accountHistoryOrders {}
+#accountOrdersDetail {}
+#accountAuthentification {}
+#accountAuthentificationForm {}
+#accountAuthentificationSubscription {}
+#accountNewPassword form {
+	padding: 5px 10px;
+	border: 1px solid #e0e0e0;
+}
+#accountNewPassword fieldset, #accountNewPassword .row {
+	padding: 0;
+	margin: 0;
+}
+#accountNewPassword label { display: block; }
+#accountNewPassword input[type="text"] { width: 100%; }
+#accountSubscription {}
+#accountAuthentificationSocialNetworkConnect {
+	margin-top: 10px;
+	padding: 10px 0;
+	text-align: center;
+	border-top: 1px solid #999;
+}
+#accountAuthentificationSocialNetworkConnect a { margin-right: 10px; }

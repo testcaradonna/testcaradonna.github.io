@@ -1,0 +1,295 @@
+/* ----------------------------
+MICRO-NAVIGATION / FIL D'ARIANE
+------------------------------*/
+.breadcrumb{
+	color:#666666;
+	margin: 0 0 5px 0;
+}
+	.breadcrumb a{
+		color:#666666;
+	}
+	.breadcrumb a:hover{
+		text-decoration:underline;
+	}
+.breadcrumbLabel{
+}
+.breadcrumbNavigation{
+}
+
+/* ------------------------------------
+MENU IMBRIQUE (NESTED) : PREMIER NIVEAU
+--------------------------------------*/
+#nested {
+  font-family:'ralewayregular', Verdana;
+}
+	#nested ul{
+		height:38px;
+		z-index: 5000;
+		margin: 0;
+		padding: 0;
+	}
+	#nested .firstLevel li{
+		list-style:none;
+		padding:0;
+		width:auto;
+		background:none;
+	}
+	#nested .firstLevel li a{
+		color:#ffffff;
+		display:block;
+		line-height:38px;
+		text-decoration:none;
+  font-weight:bold;
+	}
+	#nested .firstLevel li a:hover{
+		color: #fff;
+	}
+	#nested .firstLevel li.active a{
+		background:#8d0e2a;
+		line-height:38px;
+	}
+		#nested .firstLevel li.active a:hover{
+		}
+/* Si le menu est à gauche et imbriqué */
+#leftbar #nested{
+	background:none;
+	  position: relative;
+ }
+  #leftbar #nested ul{
+	 height:auto;
+	 background:none;
+	 padding:0;
+	 border:#eeeeee 1px solid;
+  }
+  #leftbar #nested .firstLevel li a:hover{
+	color:#007aaa;
+  }
+	#leftbar #nested ul li{
+	  margin: 0;
+	  padding: 0;
+	  float: none;
+	  background:#666666;
+	  border-bottom:1px solid #eeeeee;
+	  width:100%;
+	}
+	#leftbar #nested .firstLevel li a{
+	  line-height: normal;
+	  color:#ffffff;
+	  padding: 3px;
+	  display: block;
+	}
+	  #leftbar #nested .firstLevel li a span{
+		display:block;
+	  }
+	#leftbar #nested .secondLevel {
+	  margin: -20px 0 0 150px;
+	}
+	#leftbar #nested .secondLevel li{
+	  background:#666666;
+	}
+	#leftbar #nested .thirdLevel li{
+	  background:#666666;
+	}
+	#nested .firstLevel li.active a {
+	  border: none;
+	  font-weight:bold;
+	}
+	#nested .firstLevel li.active .secondLevel li a {
+	  font-weight:normal;
+	}
+	  #nested .firstLevel li.active .secondLevel li.active a {
+		font-weight:bold;
+		text-decoration:none;
+	  }
+	#nested .firstLevel li.active .secondLevel li.active .thirdLevel  a {
+	  font-weight:normal;
+	}
+	  #nested .firstLevel li.active .secondLevel li.active .thirdLevel .active a {
+		font-weight:bold;
+	  }
+
+/* -----------------------
+GESTION DU MENU DEROULANT
+-------------------------*/
+/*on masque les éléments qui en doivent pas s'afficher*/
+#nested .firstLevel li ul,
+#nested .firstLevel li:hover ul ul,
+#nested .firstLevel li.sfhover ul ul,
+#nested .firstLevel ul li:hover ul ul,
+#nested .firstLevel ul li.sfhover ul ul{
+	height:auto;
+	left:-999em;
+	position:absolute;
+}
+#nested .firstLevel ul li a {
+	padding:0 10px;
+	line-height:20px;
+}
+
+/* -----------------------
+SECOND NIVEAU
+-------------------------*/
+#nested .firstLevel li:hover ul,
+#nested .firstLevel li.sfhover ul{
+	background: #8d0e2a;
+	left:0;
+}
+#nested .firstLevel li ul{
+ /* width:100%;
+  position:fixed; */
+  z-index:4000;
+  display:flex;
+}
+	#nested .firstLevel li ul li{
+		background:none;
+		margin:11px 0;
+  width:100px;
+  text-align:center;
+	}
+		#nested .firstLevel li ul li a{
+			line-height:10px;
+  font-size:8px;
+  font-family:'ralewaymedium';
+		}
+#nested .firstLevel li.active li a{
+	text-decoration:none;
+}
+#nested .firstLevel ul li.active a{
+	text-decoration:underline;
+}
+#nested .firstLevel li.active ul li a {
+	background:none;
+	border:none;
+	line-height:10px;
+ font-size:8px;
+ font-family:'ralewaymedium';
+}
+
+/* ---------------
+TROISIEME NIVEAU
+-----------------*/
+#nested .firstLevel ul li:hover ul,
+#nested .firstLevel ul li.sfhover ul{
+	background: #cccccc;
+	left:auto;
+	margin:-20px 0 0 150px;
+}
+#nested .firstLevel ul ul li{
+	background:none;
+	float:none;
+	width:150px;
+}
+#nested .firstLevel ul ul li a{
+	color:#666666;
+}
+#nested .firstLevel ul li.active li a{
+	text-decoration:none;
+}
+#nested .firstLevel ul ul li.active a{
+	text-decoration:underline;
+}
+
+/* ---------------
+QUATRIEME NIVEAU
+-----------------*/
+#nested .firstLevel ul ul li:hover ul,
+#nested .firstLevel ul ul li.sfhover ul{
+	background: #eeeeee;
+	left:auto;
+	margin:-20px 0 0 150px;
+}
+#nested .firstLevel ul ul ul li{
+	background:none;
+	float:none;
+	width:150px;
+}
+#nested .firstLevel ul ul ul li a{
+	color:#666666;
+}
+#nested .firstLevel ul ul li.active li a{
+	text-decoration:none;
+}
+#nested .firstLevel ul ul ul li.active a{
+	text-decoration:underline;
+}
+
+/* ----------------------------
+MENU NON IMBRIQUE (NOT NESTED)
+-------------------------------*/
+#header #notNested {
+	background: #f00;
+}
+	#header #notNested ul{
+		background: url("../images/bg-menu-right.png") no-repeat scroll right top transparent;
+		height: 40px;
+		margin: 0;
+		padding: 0 0 0 10px;
+	}
+	#header #notNested .firstLevel li{
+		float:left;
+		list-style:none;
+		padding:0;
+		width:auto;
+		background:none;
+	}
+	#header #notNested .firstLevel li.active a,
+	#header #notNested .secondLevel li.active a,
+	#header #notNested .thirdLevel li.active a,
+	#header #notNested .fourthLevel li.active a{
+		font-weight:bold;
+	}
+	#header #notNested .secondLevel,
+	#header #notNested .thirdLevel,
+	#header #notNested .fourthLevel{
+		background:none;
+	}
+		#header #notNested .secondLevel li,
+		#header #notNested .thirdLevel li,
+		#header #notNested .fourthLevel li{
+			float:left;
+			background:none;
+			padding: 0;
+			border-right: 1px dotted #ffffff;
+		}
+		#header #notNested .secondLevel li a,
+		#header #notNested .thirdLevel li a,
+		#header #notNested .fourthLevel li a{
+			font-size:11px;
+		}
+	#header #notNested .secondLevel{
+		background: #355061;
+	}
+	#header #notNested .thirdLevel{
+		background: #cccccc;
+	}
+		#header #notNested .thirdLevel a{
+			color:#666666;
+		}
+#header #notNested .fourthLevel { background: #eee; }
+#header #notNested li a {
+	color: #FFF;
+	display: block;
+	font-size: 13px;
+	line-height: 40px;
+	padding: 0 15px;
+	text-decoration: none;
+}
+#header #notNested li a:hover { text-decoration: underline; }
+#wrapper #notNested { margin:0 0 15px; }
+#wrapper #notNested li{
+	background: none repeat scroll 0 0 #666666;
+	border-bottom: 1px solid #eeeeee;
+	float: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#wrapper #notNested li a {
+	color: #ffffff;
+	display: block;
+	line-height: normal;
+	padding: 3px;
+	text-decoration: none;
+}
+#wrapper #notNested li a:hover { color: #007aaa; }
+#smart-toggle { display: none; }

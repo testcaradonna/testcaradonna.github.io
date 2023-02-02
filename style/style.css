@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+html body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+.background-red{
+    background-color: #ed2447;
+    color: white;
+}
+
+.hover-nav:hover{
+    background-color: #a81830;
+    border-radius: 3px;
+}
+
+.hover-drop-nav:hover a{
+    background-color: #a81830;
+    border-radius: 3px;
+    color: white;
+    transition: 0.2s;
+}
+
+.text-carousel{
+    color: white !important;
+    padding: 0.2em !important;
+    text-align: center;
+    border-radius: 5px;
+    width: 35%;
+    font-size: 0.9em;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+.text-caradonna{
+    margin: 0 1em 1em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 75%;
+}
+
+
+.half-text{
+    font-size: 0.88em;
+    width: 50%;
+    padding: 0.5em;
+}
+
+@media only screen and (max-width: 768px) {
+    .half-text{
+        font-size: 0.9em;
+        width: 100%;
+    }
+    .not-visible{
+        display: none;
+    }
+}       
+
+
+.title-caradonna{
+    margin-top: 1em;
+    color: #ed2447;
+   text-align: center;
+}
+
+.statistic{
+    background-color: rgb(237, 36, 71, 0.9);
+    padding: 0.5em;
+    color: white;
+    width: 100%;
+}
+
+.inner_statistic{
+    width: 350px;
+    display: inline-block;
+    text-align: center;
+}
+
+.title_statistic{
+    margin: 0 auto -0.5em auto;
+    text-align: center;
+}
+
+.grid-statistic{
+    max-width: 1400px;
+    padding: 1em;
+    margin: 2em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .competences{
+    padding-top: 3em;
+  }
+
+ .carousel_comp{
+    background-color: #2e2852;
+    margin: 1em 0 3em 0;
+  }

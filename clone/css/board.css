@@ -1,0 +1,398 @@
+﻿/* ----------------
+CATEGORIES DU FORUM
+-----------------*/
+.board .boardCrumb{
+	display:none;
+}
+div.board img{
+	float: left;
+}
+div.board table{
+	margin-top: 5px;
+}
+div.boardCrumb{
+	background:#eeeeee;
+	padding:2px 5px;
+	width: 570px;
+	margin-bottom: 10px;
+}
+div.boardActions{
+	float: right;
+	margin-top: -25px;
+}
+div.boardContent{
+}
+div.boardFooter h4{
+	margin:0;
+	padding:0;
+}
+.postAttachmentRequirements ul{
+	clear:both;
+}
+div.boardFooter li{
+	background: url(../images/syndication.png) no-repeat 0 50%;
+	list-style:none;
+	padding:2px 0 2px 18px;
+}
+.boardForumLastpost{
+	line-height:14px;
+}
+div.board table th{
+	background: #666666;
+	color:white;
+	white-space: nowrap;
+	font-weight: normal;
+	padding: 2px 5px;
+}
+
+/* -----
+TOPICS
+-------*/
+td.board_topic_flag{
+	height: 22px;
+	width: 22px;
+}
+td.board_topic_flag div{
+	height: 22px;
+	width: 22px;
+}
+div.board_topic_normal{
+	background: url(../images/folder.gif) no-repeat center center;
+}
+div.board_topic_sticky{
+	background: url(../images/folder_sticky.gif) no-repeat center center;
+}
+div.board_topic_announcement{
+	background: url(../images/folder_announce.gif) no-repeat center center;
+}
+
+td.board_topic_topic{
+	width: 40%;
+}
+td.board_topic_replies, td.board_topic_author, td.board_topic_views, td.board_topic_lastpost{
+	text-align: center;
+}
+
+/* ------------
+FORUMS
+--------------*/
+.board{
+	position: relative;
+}
+.flag{
+	font-weight:bold;
+}
+td.boardCategory h3{
+	margin: 5px;
+	font-size: 1.4em;
+}
+td.boardForumFlag{
+	padding: 4px;
+	width: 46px;
+}
+	td.boardForumFlag div{
+		height: 25px;
+		width: 46px;
+	}
+div.boardForumOpen{
+	background: url(../images/folder_big.gif) no-repeat center left;
+}
+div.boardForumClosed{
+	background: url(../images/folder_locked_big.gif) no-repeat center left;
+}
+td.boardForumForum h4{
+	margin: 0px;
+	font-size:1.2em;
+}
+td.boardForumTopics, td.boardForumPosts, td.boardForumLastpost{
+	text-align:center;
+}
+td.boardCategory{
+	border:1px solid #CCC;
+	background: url(../images/bg-title.png) repeat-x bottom center;
+}
+div.board_forum_open{
+	background: url(../images/folder_big.gif) no-repeat center left;
+}
+div.board_forum_closed{
+	background: url(../images/folder_locked_big.gif) no-repeat center left;
+}
+
+/* ------------
+TOPICS
+--------------*/
+td.boardTopicFlag{
+	height: 22px;
+	width: 22px;
+}
+	td.boardTopicFlag div{
+		height: 22px;
+		width: 22px;
+	}
+div.boardTopicNormal{
+	background: url(../images/folder.gif) no-repeat center center;
+}
+div.boardTopicSticky{
+	background: url(../images/folder_sticky.gif) no-repeat center center;
+}
+div.boardTopicAnnouncement{
+	background: url(../images/folder_announce.gif) no-repeat center center;
+}
+
+td.boardTopicTopic{
+	width: 40%;
+}
+td.boardTopicReplies, td.boardTopicAuthor, td.boardTopicViews, td.boardTopicLastpost{
+	text-align: center;
+}
+.board .row1{
+	background:#eeeeee;
+}
+
+/* -----
+POSTS
+--------*/
+#posts{
+	border:2px solid #cccccc;
+	margin:5px 0;
+	padding:2px;
+}
+div.boardPost{
+	background:#cccccc;
+	border-top: 3px solid #666666;
+}
+div.boardPostUser{
+	float:left;
+	padding:5px 0;
+	text-align:center;
+	width: 100px;
+}
+div.boardPostUser .avatar{
+	height:80px;
+	margin:auto;
+	overflow:hidden;
+	width:80px;
+}
+	div.boardPostUser .avatar img{
+		float:none;
+		/*width:80px;
+		height:80px;*/
+	}
+span.boardPostCount{
+}
+div.boardPostMessageHeader{
+	background-color: #666666;
+	color:#ffffff;
+	font-size: 0.9em;
+	padding:3px;
+}
+	div.boardPostMessageHeader a{
+		color: #ffffff;
+		text-decoration:none;
+	}
+div.boardPostMessageTools{
+	background:#cccccc;
+	padding:3px;
+	text-align:right;
+}
+span.boardPostMessageSubject{
+	color:#666666;
+	font-size:1.2em;
+	font-weight:bold;
+	margin:0 0 0 15px;
+}
+div.boardPostMessage{
+	margin:0 0 0 110px;
+}
+div.boardPostBody{
+	background:#ffffff;
+	padding: 10px;
+}
+
+div.postContent {
+	clear: both;
+}
+
+/* ------------
+FORMULAIRES
+--------------*/
+#contents .postform form .row select{
+	width:100px;
+}
+#contents .postform form .row .style{
+	margin:10px auto 5px auto;;
+}
+
+#contents .postform form .row label{
+	font-weight:bold;
+	width:auto;
+}
+#contents .postform form .row input{
+	width:100%;
+}
+#contents .postform form .row .style input{
+	background:#cccccc;
+	border:1px outset #000000;
+	margin:0 5px;
+	width:auto;
+}
+#contents .postform form .row label.style{
+	display:none;
+}
+#contents .postform form .row  textarea{
+	height: 200px;
+	margin:5px 0;
+	width: 100%;
+}
+#contents .postform a{
+	color:#000000;
+	font-size:1.1em;
+	text-decoration:none;
+}
+#contents .postform a:hover{
+	background:none;
+	text-decoration:underline;
+}
+div.boardPostPreviewContent{
+	border: 1px solid #cccccc;
+}
+
+/* -----------------
+CONNEXION et PROFIL
+-------------------*/
+.logIn,
+.profile {
+	background: url("../images/bg-view-product.png") no-repeat top left;
+	width: 100px;
+	display: block;
+	margin: 0px auto 5px auto;
+	line-height: 25px;
+	text-align: center;
+	z-index: 500;
+	float:right;
+}
+	.logIn a,
+	.profile a{
+		color: #666;
+		text-decoration: none;
+		font-size: 13px;
+	}
+	.logIn a:hover,
+	.profile a:hover{
+		text-decoration: underline;
+	}
+
+/* -----------------------------------
+NOUVELLE DISCUSSION et REPONDRE
+------------------------------------*/
+a.newtopicLink,
+a.boardTopicReply {
+	background: url("../images/bt-petit.png") no-repeat left top;
+	padding: 0 0 0 15px;
+	float: left;
+	color: white;
+	text-decoration: none;
+	right: 20px;
+	position: absolute;
+	padding-right:5px;
+}
+	a.newtopicLink span,
+	a.boardTopicReply span{
+		display: block;
+		font-size: 1em;
+		font-weight: bold;
+		line-height: 26px;
+		background: url("../images/bt-petit.png") no-repeat right top;
+		padding: 0 15px 0 0;
+		margin-right: -15px;
+		text-decoration:none;
+	}
+	a.newtopicLink:hover
+	a.boardTopicReply:hover{
+		text-decoration:underline;
+	}
+.reply,
+#newtopic {
+	clear: both;
+	overflow: auto;
+	position: relative;
+	height: 26px;
+}
+a.newtopicLink{
+	right: auto;
+}
+.newtopic .subject label{
+	width:auto;
+	float:left;
+	margin-right: 5px;
+}
+.newtopic .subject input{
+	width: 90% !important;
+}
+.newpost fieldset{
+	margin:0;
+	padding:0;
+}
+.newpost .name,
+.newpost .email{
+	display: inline;
+	margin: 5px 0;
+}
+.newpost .name label,
+.newpost .email label{
+	width:auto;
+	float:none;
+	margin-right: 5px;
+}
+.newpost .name input,
+.newpost .email input{
+	width: 200px !important;
+}
+
+/* -----
+ACTIONS
+--------*/
+.boardTopicQuote,
+.boardTopicEdit,
+.boardTopicMove,
+.boardTopicClose,
+.boardTopicDelete{
+	background-image: url("../images/forum.png");
+	background-repeat:no-repeat;
+	padding-left: 16px;
+	margin-right:10px;
+}
+.boardTopicQuote{
+	background-position:0px 0px;
+}
+.boardTopicMove{
+	background-position:0px -32px;
+}
+.boardTopicEdit{
+	background-position:0px -16px;
+}
+.boardTopicClose{
+	background-position:0px -48px;
+}
+.boardTopicDelete{
+	background-position:0px -64px;
+}
+
+/* -----------
+PIECES JOINTES
+------------ */
+
+.postAttachments ul li{
+	background: url(../images/paper_clip.png) no-repeat 0 4px;
+	padding: 0 0 0 20px;
+	font-size: 11px;
+}
+
+/* ---------
+WIDGET FORUM
+-----------*/
+.widgetBoard a{
+	display:block;
+	font-size:1.2em;
+	margin:5px 0;
+}

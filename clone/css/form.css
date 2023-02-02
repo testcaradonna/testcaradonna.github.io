@@ -1,0 +1,179 @@
+/* ----------------------------
+FORMULAIRE GENERIQUE
+------------------------------*/
+fieldset {
+	margin: 10px;
+	padding: 5px;
+}
+legend {
+	color:#666;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 0 5px;
+}
+label {
+	float: left;
+	width: 200px;
+}
+input, select, textarea {
+	background: #fff url(../images/fd_elt_form.gif) no-repeat top left;
+	border: 1px solid #666666;
+	text-align: left!important;
+	width: auto;
+}
+input[type="text"] {
+	width: 180px;
+	cursor: pointer;
+}
+textarea {
+	width: 450px;
+	height: 100px;
+	max-width: 100%;
+}
+input:focus, select:focus, textarea:focus { background: #ffe794 url(../images/fd_elt_form2.gif) no-repeat top left; }
+input.wordsbox {
+	background: #fff url(../images/search.png) no-repeat 5px 50%;
+	padding: 0 0 0 20px;
+}
+input.wordsbox:focus { background: #bdb8db url(../images/search.png) no-repeat 5px 50%; }
+.widget .group_multi_radio, .widget .group_multi_checkbox,
+.widget .group_multi, .widget .groupMultiRadio,
+.widget .groupMulticheckbox, .widget .groupMulti { padding: 0 0 0 10px; }
+.group_multi_radio, .group_multi_checkbox,
+.group_multi, .groupMultiRadio,
+.groupMulticheckbox, .groupMulti {
+	clear: both;
+	display: block;
+	padding: 0 0 0 200px;
+	position: relative;
+	top: -15px;
+}
+.group_multi_radio p, .groupMultiRadio p,
+.group_multi_checkbox p, .groupMulticheckbox p,
+.group_multi p, .groupMulti p { margin: 0; }
+.multi_radio, .multiRadio, .multi_checkbox, .multiCheckbox { display: block; }
+.multi_radio label, .multiRadio label, .multi_checkbox label, .multiCheckbox label { float: none; }
+.form_interval {
+	padding: 0 0 0 200px;
+	position: relative;
+	top: -18px;
+}
+.form_interval * { float: none; }
+
+.aide {
+	font-size: 11px;
+	font-style: oblique;
+	color: #bbb;
+}
+.aide p { display: inline; }
+
+/* ----------------------------
+CORRECTIF INTERNET EXPLORER
+------------------------------*/
+input.radio, input.checkbox, input.radio:focus, input.checkbox:focus {
+	background: transparent;
+	border: 0;
+	width: auto!important;
+	margin-right: 5px;
+}
+
+/* ----------------------------
+BOUTONS DE VALIDATION
+------------------------------*/
+.submit {
+	margin: 5px 0 0;
+	text-align: right;
+}
+.submit input {
+	background: #007aaa;
+	border: 1px solid #666;
+	padding: 2px 6px;
+	color: #fff;
+}
+
+/* ------------
+REPONSE DU QCM
+---------------*/
+#formsQcm .response { color: #ff0000; }
+#formsQcm .good { color: #44bb34; }
+
+/* ------------
+EN CAS D'ERREUR
+---------------*/
+.errorForm, .obligatory, .errorLog { color: #ff0000; }
+.row .error input, .error select, .error textarea {
+	background: #ffefef!important;
+	border: 1px solid #bb3434!important;
+	color: #bb3434!important;
+}
+.label.error { color: #bb3434!important; }
+
+/* ------------
+CROPPER
+------------ */
+#html5Behaviorspicture_input { margin-left: 200px; }
+.imagePreview {
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+}
+.imagePreview img {
+	max-width: none;
+}
+.imagePreviewCropLayer {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 1000;
+	margin: -200px 0 0 -300px;
+	width: 600px;
+	height: 410px;
+	padding: 10px;
+	background: #fff;
+	box-shadow: 0 5px 10px rgba(0,0,0,.7);
+	-moz-box-shadow: 0 5px 10px rgba(0,0,0,.7);
+	-webkit-box-shadow: 0 5px 10px rgba(0,0,0,.7);
+}
+.imagePreviewCropLayer > span {
+	float: right;
+	color: #31a5da;
+	padding: 5px 10px;
+	margin: 10px 0 0 10px;
+	font-size: 12px;
+	border: 1px solid #31a5da;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor: pointer;
+}
+.imagePreviewCropLayer > span:last-child {
+	border: 1px solid #fff;
+}
+.imagePreviewCropLayer > span:hover {
+	color: #fff;
+	background: #31a5da;
+	border: 1px solid #31a5da;
+}
+.imagePreviewCrop {
+	height: 350px;
+	background: #eee;
+	border: 1px solid #ddd;
+	overflow-y: auto;
+}
+.datasFile {
+	float: left;
+	margin-top: 10px;
+	font: bold 12px/32px Arial, Verdana, sans-serif;
+}
+.datasFile > span { margin-right: 20px; }
+.datasFile strong { font-weight: normal; }
+#fd_noir {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg_mask.png);
+}

@@ -1,0 +1,222 @@
+/* -------------------
+BOITE RECHERCHE ANNUAIRE
+---------------------*/
+.boxDirectorySearch{
+}
+#boxDirectorySearchForm{
+}
+
+/* -------------------
+BOITE PUBLICATION FICHE
+---------------------*/
+.boxdirectories .directoryEnties{
+	float: none;
+	background: none;
+}
+.boxdirectories .directoryEntiesContainer{
+	width: auto;
+}
+.boxdirectories a.directoryLink {
+	left: 40px;
+}
+
+/* -------------------
+PUBLICATION DE L'ANNUAIRE
+---------------------*/
+#directory{
+}
+	#directoryPresentation{
+		margin:auto;
+		width:100%;
+		background:#eeeeee;
+		clear: both;
+	}
+		#directoryPresentation img{
+			float:left;
+			margin:5px;
+		}
+		#directoryPresentation p{
+			padding:5px;
+		}
+#directory #sort_form{
+	border-bottom:1px dotted #cccccc;
+	margin:0 auto;
+	width:90%;
+	clear: both;
+	padding: 10px 0 0 0;
+}
+	#directory #sort_form fieldset legend{
+		color:#666666;
+		float:left;
+		font-size:1.1em;
+		font-weight:bold;
+		margin:3px;
+	}
+	#directory #sort_form label{
+		float:none;
+		margin-right:10px;
+		width:auto;
+	}
+#directory  #formArboSelect,
+.directoryEntryDetailDefault #formgotoentry {
+	width:auto;
+	padding:0;
+}
+	#directory  #formArboSelect legend,
+	.directoryEntryDetailDefault #formgotoentry legend{
+		float: left;
+		display: block;
+		margin-right: 5px;
+	}
+	#directory  #formArboSelect .row,
+	.directoryEntryDetailDefault #formgotoentry .row{
+		clear: none;
+		margin: 0 5px;
+		padding: 0 5px;
+	}
+	#directory  #formArboSelect label,
+	.directoryEntryDetailDefault #formgotoentry label{
+		display: none;
+	}
+.entries{
+	clear:both;
+	padding-top: 5px;
+}
+.entryDesc{
+}
+.directoryLevel1,
+.directoryParent,
+.directoryCurrent,
+.directoryLevel2,
+.directoryLevel3,
+.directoryLevel4{
+	display: none;
+}
+.directoryEnties{
+	background: url("../images/product-right.png") repeat-y right top;
+	float: left;
+	position: relative;
+	color: #666;
+	position: relative;
+}
+.directoryEnties h2{
+	color: black;
+	font-size: 16px;
+	font-weight: normal;
+	height: 30px;
+	margin: 0 0 5px;
+	overflow: hidden;
+	padding: 2px;
+	display: block;
+	margin-bottom: 10px;
+	overflow: hidden;
+	height: auto;
+	clear: both;
+	display: inline;
+}
+.directoryEntiesContainer{
+	background: url("../images/product-bottom.png") repeat-x scroll left bottom transparent;
+	height: 210px;
+	padding: 5px 15px 19px;
+	width: 200px;
+}
+.directoryEntiesContainerInner{
+	height: 168px;
+	overflow: hidden;
+}
+#directory #sort_form div{
+	display:inline;
+}
+#directory #childrenCategories {
+	margin: 5px 5px 5px 50px;
+	font-weight: bold;
+}
+#adsPresentation {
+	margin: auto;
+	width: 100%;
+	background: #EEE;
+	clear: both;
+}	
+	
+#directory .field_2 {
+	text-align: center;
+}
+#directory .field_2 img{
+	
+}
+	#directory .directoryAdditionnalsPropertiesLabel,
+	.directoryEntryDetailDefault .directoryAdditionnalsPropertiesLabel{
+		display:none;
+	}
+a.directoryLink{
+	background: url("../images/bg-view-product.png") no-repeat top left;
+	width: 100px;
+	display: block;
+	margin: 5px auto 0 auto;
+	line-height: 25px;
+	text-align: center;
+	z-index: 500;
+	text-decoration: none;
+	position: absolute;
+	bottom:5px;
+	left:60px;
+}
+	a.directoryLink span{
+		color: #666;
+		font-size: 12px;
+	}
+	a.directoryLink:hover{
+		color:black;
+		text-decoration: underline;
+	}
+a.directoryBack{
+	display:block;
+	margin:10px 0;
+	text-align:center;
+	clear: both;
+}
+#directoryLinkedEntries{
+	margin-top: 15px;
+	overflow: auto;
+	clear: both;
+}
+#directoryLinkedEntries #linkedEntry{
+	background: url("../images/product-right.png") repeat-y right top;
+	float: left;
+	position: relative;
+	color: #666;
+}
+	#directoryLinkedEntries .directoryEnties{
+		background: url("../images/product-bottom.png") repeat-x scroll left bottom transparent;
+		height: 280px;
+		padding: 24px 15px 19px;
+		width: 200px;
+		border:none;
+	}
+	#directoryLinkedEntries #directoryDescription {
+		width: auto;
+		height: 114px;
+		overflow: hidden;
+		line-height: 140%;
+		margin-bottom: 5px;
+	}
+	#directoryLinkedEntries .directoryAdditionnalsPropertiesValue{
+		text-align: center;
+	}
+#directoryLinkedEntries h2{	
+	color: #666;
+	font-size: 16px;
+	font-weight: normal;
+	height: 30px;
+	line-height: 15px;
+	margin: 0 0 5px;
+	overflow: hidden;
+	padding: 2px;
+}
+.directoryEntiesOrder{
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-right: 5px;
+	display: inline;
+	border-right: 1px dotted silver;
+}
