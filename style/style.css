@@ -101,3 +101,31 @@ html body{
     background-color: #2e2852;
     margin: 1em 0 3em 0;
   }
+
+  .carousel_comp .carousel{
+    max-width: 1000px !important;
+  }
+
+.service-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+  .service{
+    text-align: center;
+    display: block;
+    height: 250px;
+    width: 350px;
+    line-height: 1.5em;
+  }
+
+  .color-red{
+    color: #ed2447;
+  }
+
+  .service p{
+    color: #454545;
+  }
